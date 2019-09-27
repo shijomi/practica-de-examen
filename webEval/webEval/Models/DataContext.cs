@@ -10,5 +10,7 @@ namespace webEval.Models
         {
 
         }
+
+        public System.Data.Entity.DbSet<webEval.Models.Score> Scores { get; set; }
     }
 }
